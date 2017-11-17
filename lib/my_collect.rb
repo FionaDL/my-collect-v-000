@@ -1,9 +1,7 @@
 
 def my_collect(array)
-  count=0
-  while my_collect.length > 
-    yield block
+  x=0
+  while x < my_collect.length 
+    yield(array[x])
   count + 1
   end
-  
-
